@@ -13,6 +13,7 @@ const connection=mysql.createConnection({
 connection.connect((err)=>{
     if(err){
         console.error('erro ao connectar ao banco', err)
+        return
     }
     console.log(' conectado ao banco de dados ')
 })
