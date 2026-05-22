@@ -6,3 +6,5 @@ const user = {
         db.execulte(query,[data.nome, data.nick_name, data.email, data.telefone, data.senha], callback)
     }
 }
+
+export default user

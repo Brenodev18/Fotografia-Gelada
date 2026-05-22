@@ -20,7 +20,7 @@
     <!-- //GRID IMAGENS -->
     <article class="layout">
 
-        <div class="item1">
+        <div class="item" id="item1">
             <img id="ft1" src="/public/img/GrandCanyon.jpg" alt="">
             <div id="ic">
                 <img src="/public/icons/coração.svg" alt="">
@@ -28,7 +28,7 @@
             </div>
         </div>
 
-        <div class="item2">
+        <div class="item2 item">
             <img  src="/public/img/Everest.jpg" alt="">
              <div id="ic">
                 <img src="/public/icons/coração.svg" alt="">
@@ -36,7 +36,7 @@
             </div>
         </div>
 
-        <div class="item3">
+        <div class="item3 item">
             <img  src="/public/img/AlpesSuiços.jpg" alt="">
             <div id="ic">
                 <img src="/public/icons/coração.svg" alt="">
@@ -44,7 +44,7 @@
             </div>
         </div>
 
-        <div class="item4">
+        <div class="item4 item">
             <img  src="/public/img/Huandoy.jpg" alt="">
             <div id="ic">
                 <img src="/public/icons/coração.svg" alt="">
@@ -52,7 +52,7 @@
             </div>
         </div>
 
-        <div class="item5">
+        <div class="item5 item">
             <img  src="/public/img/MonteBranco.jpg" alt="">
              <div id="ic">
                 <img src="/public/icons/coração.svg" alt="">
@@ -60,7 +60,7 @@
             </div>
         </div>
 
-        <div class="item6">
+        <div class="item6 item">
             <img  src="/public/img/MonteElbrus.jpg" alt="">
             <div id="ic">
                 <img src="/public/icons/coração.svg" alt="">
@@ -68,7 +68,7 @@
             </div>
         </div>
 
-        <div class="item7">
+        <div class="item7 item">
             <img  src="/public/img/MonteFuji.jpg" alt="">
             <div id="ic">
                 <img src="/public/icons/coração.svg" alt="">
@@ -76,7 +76,7 @@
             </div>
         </div>
 
-        <div class="item8">
+        <div class="item8 item">
             <img  src="/public/img/PicoPikes.jpg" alt="">
             <div id="ic">
                 <img src="/public/icons/coração.svg" alt="">
@@ -110,12 +110,41 @@
     </dialog>
 
     <!-- //MODAL IMAGENS -->
-     <div id="open">
+     <dialog id="open">
 
-        <h2>GrandCanyon</h2>
-        <img src="/public/img/GrandCanyon.jpg" alt="">
+        <div class="container">
+            <div class="top">
+                <h2>GrandCanyon</h2>
+                <img id="x" src="/public/icons/x.svg" alt="">
+            </div>
 
-     </div>
+            <img id="gc" src="/public/img/GrandCanyon.jpg" alt="">
+
+            <div class="barrainferior">
+
+                <div class="curtidas">
+                    <img id="coracao" src="/public/icons/coraçãoVermelho.svg" alt="">
+                    <h4>Curtidas</h4>
+                </div>
+
+                <div class="comentarios">
+                    <img id="comentario" src="/public/icons/chat-branco.svg" alt="">
+                    <h4>Comentarios</h4>
+                </div>       
+
+            </div>
+
+             <div class="adicionarcomentario">
+                    <div class="add">
+                        <img id="comentario" src="/public/icons/chat-branco.svg" alt="">
+                        <h4>Adicionar comentario</h4>
+                    </div>
+                    <img id="send" src="/public/icons/send.svg" alt="">
+                </div>
+
+        </div>
+
+     </dialog>
 
     <!-- //FOOTER -->
     <footer>
