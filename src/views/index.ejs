@@ -12,7 +12,10 @@
     <header>
         <div class="cab">
             <h2>Fotografia Gelada</h2>
-            <button  id="btn">Login</button>
+            <div class="cadlogin">
+                <button id="btncad">Cadastrar</button>
+                <button  id="btn">Login</button>
+            </div>
         </div>
         <h3>Home</h3>
     </header>
@@ -107,6 +110,49 @@
             <button id="btn3">Cancelar</button>
             <button class="btn2">Entrar</button>
         </div>
+    </dialog>
+    <!-- //MODAL CADASTRO -->
+    <dialog  id="cadastro">
+
+            <div class="topo">
+                <h2>Fazer cadastro</h2>
+            </div>
+        <form action="/index" method="post" class="conteudo">
+
+            <div class="linput">
+                <label for="">nome</label>
+                <input type="text" name="nome" placeholder="Digite seu Nome" required>
+            </div>
+
+            <div class="linput">
+                <label for="">nick_name</label>
+                <input type="text" name="nick_name" placeholder="Digite seu Nick" required>
+            </div>
+
+            <div class="linput">
+                <label for="">Email</label>
+                <input type="text" name="email" placeholder="Digite seu email" required>
+            </div>
+
+            <div class="linput">
+                <label for="">Telefone</label>
+                <input type="number" name="telefone" placeholder="Digite seu numero" required>
+            </div>
+
+            <div class="linput">
+                <label for="">Senha</label>
+                <input type="text" name="senha" placeholder="Digite sua Senha" required>
+            </div>
+
+        
+            
+        <div class="btns">
+            <button type="submit" id="cad">Cadastrar</button>
+        </form>
+            <button id="fecharcad">Cancelar</button>
+        </div>
+   
+   
     </dialog>
 
     <!-- //MODAL IMAGENS -->

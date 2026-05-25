@@ -26,7 +26,7 @@
 }
 
 body{
-    font-family: roboto local, sans-serif;
+    font-family: Roboto local, sans-serif;
     width: 100vw;
     background-color: rgb(245, 255, 255);
 }
@@ -49,9 +49,16 @@ dialog::backdrop{
 }
 
 .btns{
+    margin-top: 10px;
     display: flex;
     width: 300px;
     gap: 10px;
+}
+
+.btns #cad:hover{
+    cursor: pointer;    
+    background-color: rgb(226, 255, 255);
+    font-weight: bold;
 }
 
 .btns button{
@@ -136,6 +143,12 @@ header h3{
     padding: 10px;
 }
 
+.cadlogin{
+    display: flex;
+    width: 150px;
+
+}
+
 #btn{
     font-family: roboto local, sans-serif;
     color: white;
@@ -146,6 +159,23 @@ header h3{
     width: 150px;
 }
 #btn:hover{
+    font-family: roboto local, sans-serif;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    transition: 0.3s;
+}
+
+#btncad{
+    font-family: roboto local, sans-serif;
+    color: white;
+    background-color: black;
+    border-radius: 8px;
+    margin-right: 5px;
+    padding: 8px;
+    width: 150px;
+}
+#btncad:hover{
     font-family: roboto local, sans-serif;
     cursor: pointer;
     background-color: white;
@@ -325,6 +355,19 @@ footer{
     padding: 7px;
     height: 35px;
     overflow: hidden;
+}
+
+#cadastro{
+    display: none;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 100px;
+    width: 450px;
+    height: 500px;
+    border: 1px solid;
+    background-color: rgb(177, 177, 177);
 }
 
 #open{
